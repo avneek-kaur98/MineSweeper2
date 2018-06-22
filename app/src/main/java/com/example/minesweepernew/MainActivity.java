@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static int TWO = 2;
     public static int THREE = 3;
     public static int EMPTY = 0;
+
     private int Total_mines= 10;
 
     @Override
