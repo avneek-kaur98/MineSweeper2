@@ -9,6 +9,7 @@ class MSButton extends AppCompatButton {
     private int Block = MainActivity.EMPTY;
     int row;
     int column;
+    boolean flag = false;
     public int getBlock(){
         return this.Block;
     }
@@ -32,5 +33,13 @@ class MSButton extends AppCompatButton {
 
     public int getColumn() {
         return this.column;
+    }
+
+    public void setFlag(boolean value){
+        this.flag = value;
+    }
+
+    public boolean isFlaged() {
+        return this.flag;
     }
 }
